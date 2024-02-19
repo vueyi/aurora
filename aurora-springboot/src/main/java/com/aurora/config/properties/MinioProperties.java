@@ -18,4 +18,11 @@ public class MinioProperties {
     private String secretKey;
 
     private String bucketName;
-}
+//}
+//  private String url;
+
+ //   private String dir;
+
+ // public String getBucketName() {
+  }
+//}

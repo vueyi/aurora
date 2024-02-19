@@ -2,6 +2,7 @@ package com.aurora.enums;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+import org.jetbrains.annotations.Contract;
 
 @Getter
 @AllArgsConstructor
@@ -10,6 +11,8 @@ public enum UploadModeEnum {
     OSS("oss", "ossUploadStrategyImpl"),
 
     MINIO("minio", "minioUploadStrategyImpl");
+
+    LOCAL_FILE("local", "localUploadStrategyImpl");
 
     private final String mode;
 
